@@ -1,0 +1,47 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "text": "Which cloud provider are you currently using?",
+            "choices": [
+                {
+                    "id": 1,
+                    "text": "AWS",
+                    "next_question_id": 2
+                },
+                {
+                    "id": 2,
+                    "text": "Scaleway",
+                    "next_question_id": 3
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "parent_id": 1,
+            "text": "What is your primary reason for using AWS?",
+            "choices": [
+                {
+                    "id": "1",
+                    "text": "Scalability",
+                    "next_question_id": null
+                },
+                {
+                    "id": "2",
+                    "text": "Security",
+                    "next_question_id": null
+                },
+                {
+                    "id": "3",
+                    "text": "Price",
+                    "next_question_id": null
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "text": "What is your primary reason for using Scaleway ?",
+            "choices": []
+        }
+    ]
+}
